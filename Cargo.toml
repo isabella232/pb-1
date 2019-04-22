@@ -16,8 +16,5 @@ time = "0.1.35"
 version = "0.3"
 features = ["wincon", "processenv", "winbase"]
 
-[target.'cfg(target_os = "redox")'.dependencies]
-termion = "1.4"
-
 [dev-dependencies]
 rand = "0.5"
